@@ -75,3 +75,33 @@ dnd_damage_types <- function(){
   # Return that vector
   return(damages)
 }
+
+
+#' @title Return Vector of Character Backgrounds
+#'
+#' @description Simply returns a vector of character backgrounds in DnD
+#'
+#' @return character vector of character backgrounds
+#'
+#' @export
+#'
+#' @examples
+#' # Full set of backgrounds sourced from u/OrkishBlade's post here: <https://www.reddit.com/r/DnDBehindTheScreen/comments/50pcg1/a_post_about_names_names_for_speakers_of_the/>
+#' dnd_character_backgrounds()
+#'
+dnd_character_backgrounds <- function(){
+  
+  # Assemble vector of currently supported backgrounds
+  backgrounds <- c(
+    "Desertfolk", "Farmfolk", "Food Prep", 
+    "Frozen Lands","Garmenters", "Islanders", 
+    "Crafters", "Mountainfolk", "Merchants", 
+    "Mages & Scholars", "Riverfolk", "Seafolk", 
+    "Smiths", "Soldiers", "Stablers", "Swampfolk",
+    "Townsfolk", "Woodsfolk"
+  )
+  
+  # Return that vector
+  return(backgrounds)
+}
+
